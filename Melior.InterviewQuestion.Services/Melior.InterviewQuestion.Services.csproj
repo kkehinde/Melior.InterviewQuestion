@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Melior.InterviewQuestion.Data\Melior.InterviewQuestion.Data.csproj" />
+    <ProjectReference Include="..\Melior.InterviewQuestion.Types\Melior.InterviewQuestion.Types.csproj" />
+  </ItemGroup>
+
+</Project>
